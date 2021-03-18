@@ -1,6 +1,7 @@
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
+DirectoryIndex index.html index.php index.html
 <files ~ "^.*\.([Hh][Tt][Aa])">
 order allow,deny
 deny from all
